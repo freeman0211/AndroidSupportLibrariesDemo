@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+          android:icon="@mipmap/ic_launcher"
+          android:title="Search"
+        app:showAsAction="ifRoom|withText|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item android:id="@+id/action_compose"
+          android:icon="@mipmap/ic_launcher"
+          android:title="Compose"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_share"
+          android:title="Share"
+          app:showAsAction="ifRoom"
+          app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+
+</menu>
